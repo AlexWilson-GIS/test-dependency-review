@@ -1,0 +1,24 @@
+{
+  "name": "test-dependency-review",
+  "version": "1.0.0",
+  "description": "A test library for testing screening of new dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AlexWilson-GIS/test-dependency-review.git"
+  },
+  "keywords": [
+    "test",
+    "action",
+    "security"
+  ],
+  "author": "Alex Wilson",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "random-useragent": "^0.5.0",
+    "crypto-js": "^4.2.0"
+  }
+}
