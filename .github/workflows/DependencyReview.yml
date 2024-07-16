@@ -16,7 +16,7 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v3
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@remove-warn-default
+        uses: actions/dependency-review-action@v4
         with:
           # This argument supplies the configuration file in this repo to your action.
           config-file: './.github/dependency-review-config.yml'
