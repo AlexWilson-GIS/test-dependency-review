@@ -13,7 +13,7 @@ comment_summary_in_pr: always
 # Until this happens, we will need to specify each version individually.
 deny_packages:
   # particularly eggregious crypto module
-  - 'pkg:npm/crypto-js'
+  - 'pkg:npm/crypto-js/'
   # log4j vulnerable to log4shell
   - 'pkg:maven/org.apache.logging.log4j/log4j-core@2.17.0'
   - 'pkg:maven/org.apache.logging.log4j/log4j-core@2.16.0'
@@ -69,7 +69,7 @@ deny_packages:
 # Any number of groups (namespaces in purl format) to block in a PR.
 deny_groups:
   # All log4j v1
-  - 'pkg:maven/log4j'
+  - 'pkg:maven/log4j/'
 # Enable or disable retrying the action every 10 seconds while waiting for dependency submission actions to complete.
 # This will have no effect on GHES until the Dependency Submission API is available.
 retry_on_snapshot_warnings: true
